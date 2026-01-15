@@ -1,0 +1,39 @@
+# S3 CLI Command Outputs
+
+Save all your S3 CLI command outputs here.
+
+---
+
+## Upload Commands
+
+```bash
+$ aws s3 cp cli-test.txt s3://your-name-bootcamp-demo-2024/
+[Paste output]
+```
+
+---
+
+## List Commands
+
+```bash
+$ aws s3 ls s3://your-name-bootcamp-demo-2024/
+[Paste output]
+```
+
+---
+
+## Sync Commands
+
+```bash
+$ aws s3 sync local-project/ s3://your-name-bootcamp-demo-2024/project/
+[Paste output]
+```
+
+---
+
+## Delete Commands
+
+```bash
+$ aws s3 rm s3://your-name-bootcamp-demo-2024/cli-test.txt
+[Paste output]
+```

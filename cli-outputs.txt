@@ -1,9 +1,124 @@
+2026-02-04 17:38:48         14 project/assets/index.html
+2026-02-04 17:38:48         16 project/docs/README.md
+2026-02-04 17:39:32         24 project/src/app.js
+Completed 15 Bytes/15 Bytes (21 Bytes/s) with 1 file(s) remainingupload: ./cli-test.txt to s3://maryam-ahmadi-bootcamp-demo-2024/cli-test.txt
+Completed 15 Bytes/15 Bytes (24 Bytes/s) with 1 file(s) remainingupload: ./cli-test.txt to s3://maryam-ahmadi-bootcamp-demo-2024/backups/cli-test.txt
                            PRE backups/
                            PRE documents/
                            PRE images/
-2026-02-04 14:36:18     107819 Logo.png
+                           PRE project/
+2026-02-04 16:19:40   20091610 @deutschmahroo_Grammatik_ganz_klar!_Übungsgrammatik_mit_CD_ROM.pdf
 2026-02-04 14:36:20     236623 Mahmadi-CV.pdf
-2026-02-04 14:36:21       8394 README.md
-2026-02-04 14:59:50         15 cli-test.txt
-2026-02-04 14:36:19          0 
-2026-02-04 15:00:05         15 cli-test.txt
+2026-02-04 17:47:20       8394 README.txt
+2026-02-04 17:52:19         15 cli-test.txt
+2026-02-04 18:01:43         13 version- test.txt
+2026-02-04 17:47:19         13 version-test.txt
+2026-02-04 17:47:20          0 
+2026-02-04 17:52:28         15 cli-test.txt
+                           PRE backups/
+                           PRE documents/
+                           PRE images/
+                           PRE project/
+2026-02-04 16:19:40   20091610 @deutschmahroo_Grammatik_ganz_klar!_Übungsgrammatik_mit_CD_ROM.pdf
+2026-02-04 14:36:20     236623 Mahmadi-CV.pdf
+2026-02-04 17:47:20       8394 README.txt
+2026-02-04 17:52:19         15 cli-test.txt
+2026-02-04 18:01:43         13 version- test.txt
+2026-02-04 17:47:19         13 version-test.txt
+                           PRE backups/
+                           PRE documents/
+                           PRE images/
+                           PRE project/
+2026-02-04 14:36:20     236623 Mahmadi-CV.pdf
+2026-02-04 17:47:20       8394 README.txt
+2026-02-04 18:07:25   20091610 big-size-file.pdf
+2026-02-04 17:52:19         15 cli-test.txt
+2026-02-04 18:01:43         13 version- test.txt
+2026-02-04 17:47:19         13 version-test.txt
+{
+    "CopySourceVersionId": "9QqFVgc.p3AbHwiW4EHuqJ6SJLwvScr4",
+    "VersionId": "1WVOdJduVML9idvunloXI5kV0dNbk84k",
+    "ServerSideEncryption": "AES256",
+    "CopyObjectResult": {
+        "ETag": "\"37676eef62d605a39e23cdd5261644a4\"",
+        "LastModified": "2026-02-05T13:27:16+00:00",
+        "ChecksumCRC64NVME": "6Hk0hpT42PY="
+    }
+}
+{
+    "AcceptRanges": "bytes",
+    "LastModified": "2026-02-05T13:27:16+00:00",
+    "ContentLength": 20091610,
+    "ETag": "\"37676eef62d605a39e23cdd5261644a4\"",
+    "VersionId": "1WVOdJduVML9idvunloXI5kV0dNbk84k",
+    "ContentType": "application/pdf",
+    "ServerSideEncryption": "AES256",
+    "Metadata": {},
+    "StorageClass": "STANDARD_IA"
+}
+Completed 15 Bytes/15 Bytes (32 Bytes/s) with 1 file(s) remainingdownload: s3://maryam-ahmadi-bootcamp-demo-2024/cli-test.txt to downloads/cli-test.txt
+Completed 105.3 KiB/105.3 KiB (127.1 KiB/s) with 1 file(s) remainingdownload: s3://maryam-ahmadi-bootcamp-demo-2024/images/Logo.png to downloads/images/Logo.png
+cli-test.txt
+images
+
+downloads/images:
+Logo.png
+delete: s3://maryam-ahmadi-bootcamp-demo-2024/cli-test.txt
+delete: s3://maryam-ahmadi-bootcamp-demo-2024/backups/cli-test.txt
+delete: s3://maryam-ahmadi-bootcamp-demo-2024/backups/
+                           PRE documents/
+                           PRE images/
+                           PRE project/
+2026-02-04 14:36:20     236623 Mahmadi-CV.pdf
+2026-02-04 17:47:20       8394 README.txt
+2026-02-05 14:27:16   20091610 big-size-file.pdf
+2026-02-04 18:01:43         13 version- test.txt
+2026-02-04 17:47:19         13 version-test.txt
+assets
+docs
+src
+
+local-project/assets:
+index.html
+
+local-project/docs:
+README.md
+
+local-project/src:
+app.js
+Completed 16 Bytes/52 Bytes (49 Bytes/s) with 3 file(s) remainingupload: local-project/docs/README.md to s3://maryam-ahmadi-bootcamp-demo-2024/project/docs/README.md
+Completed 16 Bytes/52 Bytes (49 Bytes/s) with 2 file(s) remainingCompleted 38 Bytes/52 Bytes (57 Bytes/s) with 2 file(s) remainingCompleted 52 Bytes/52 Bytes (78 Bytes/s) with 2 file(s) remainingupload: local-project/assets/index.html to s3://maryam-ahmadi-bootcamp-demo-2024/project/assets/index.html
+Completed 52 Bytes/52 Bytes (78 Bytes/s) with 1 file(s) remainingupload: local-project/src/app.js to s3://maryam-ahmadi-bootcamp-demo-2024/project/src/app.js
+Completed 24 Bytes/24 Bytes (76 Bytes/s) with 1 file(s) remainingupload: local-project/src/app.js to s3://maryam-ahmadi-bootcamp-demo-2024/project/src/app.js
+2026-02-05 14:36:49         14 project/assets/index.html
+2026-02-05 14:36:49         16 project/docs/README.md
+2026-02-05 14:37:10         24 project/src/app.js
+{
+    "Label": "BucketSizeBytes",
+    "Datapoints": []
+}
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "s3-replication-role",
+        "RoleId": "AROAS6EGTBA2FUK7B4JYX",
+        "Arn": "arn:aws:iam::202145728564:role/s3-replication-role",
+        "CreateDate": "2026-02-05T15:05:15+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "s3.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        }
+    }
+}
+Completed 17 Bytes/17 Bytes (19 Bytes/s) with 1 file(s) remainingupload: ./replication-test.txt to s3://maryam-ahmadi-bootcamp-demo-2024/replication-test.txt
+2026-02-05 16:03:19         13 replication-test.txt
+Completed 17 Bytes/17 Bytes (21 Bytes/s) with 1 file(s) remainingupload: ./replication-test.txt to s3://maryam-ahmadi-bootcamp-demo-2024/replication-test.txt
+2026-02-05 16:09:18         17 replication-test.txt

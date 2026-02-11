@@ -1,14 +1,19 @@
 # Create S3 Bucket Lab - Solution
 
-**Student Name:** [Your Name]  
-**Date:** [Date]
-
+**Student Name:** Maryam Ahmadi  
+**Date:** 11.02.2026
 ---
 
 ## Exercise 1: Bucket Creation
 
-**Bucket Name:** [your-name-bootcamp-demo-2024]  
+**Bucket Name:** [maryamahmadi-bootcamp-demo-2024]  
 **Region:** [us-east-1]
+
+**Block Public Access: Enabled (Default)
+
+**Versioning: Disabled (initially)
+
+**The bucket was successfully created via AWS Console and verified in the S3 dashboard.
 
 ![Bucket Created](screenshots/bucket-created.png)
 
@@ -17,9 +22,10 @@
 ## Exercise 2: Object Uploads
 
 ### Files Uploaded:
-1. [File 1 name and type]
-2. [File 2 name and type]
-3. [File 3 name and type]
+1. README.txt (Text file)
+2. logo.png (Image file)
+3. resume.pdf (Document file)
+Files were organized into appropriate folders.
 
 ### Folder Structure:
 ![Folder Structure](screenshots/folder-structure.png)
@@ -38,10 +44,18 @@
 ![Storage Classes](screenshots/storage-classes.png)
 
 **Storage Classes Used:**
-- Standard: [Number] objects
-- Standard-IA: [Number] objects
-- Intelligent-Tiering: [Number] objects
+- Standard: 3 objects
+- Standard-IA: [1 objects
+- Intelligent-Tiering: 1 objects
 
+
+Actions Performed:
+
+Uploaded a file using Standard-IA
+
+Modified existing object to Intelligent-Tiering
+
+This demonstrates cost optimization strategies for infrequently accessed data.
 ---
 
 ## Exercise 4: Bucket Features
@@ -50,7 +64,10 @@
 ![Versioning Enabled](screenshots/versioning-enabled.png)
 ![Versions List](screenshots/versions.png)
 
-**Number of versions created:** [X]
+**Number of versions created:** 4
+
+Versioning protects against accidental deletion and overwrites.
+
 
 ### Encryption:
 ![Encryption Enabled](screenshots/encryption-enabled.png)
@@ -69,10 +86,10 @@
 ## Exercise 5: Download/Delete
 
 **Operations Completed:**
-- [x] Downloaded object via console
-- [x] Downloaded object via CLI
-- [x] Deleted object via console
-- [x] Deleted object via CLI
+-  Downloaded object via console
+-  Downloaded object via CLI
+-  Deleted object via console
+-  Deleted object via CLI
 
 ---
 
@@ -80,8 +97,8 @@
 
 ![Synced Files](screenshots/synced-files.png)
 
-**Files Synced:** [Number]  
-**Total Size:** [Size]
+**Files Synced:** 3  
+**Total Size:** 3.8
 
 ---
 
@@ -90,9 +107,9 @@
 ![Bucket Metrics](screenshots/bucket-metrics.png)
 
 **Bucket Statistics:**
-- Total objects: [X]
-- Total size: [X GB]
-- Storage class distribution: [Details]
+- Total objects: 2
+- Total size: 7.4 GB
+- Storage class distribution: Metrics help monitor storage growth and cost.
 
 ---
 
@@ -102,9 +119,9 @@
 ![Lifecycle Policy](screenshots/lifecycle-policy.png)
 
 **Policy Rules:**
-- [x] Transition to Standard-IA: 30 days
-- [x] Transition to Glacier: 90 days
-- [x] Delete: 365 days
+-  Transition to Standard-IA: 30 days
+-  Transition to Glacier: 90 days
+-  Delete: 365 days
 
 ---
 
@@ -117,24 +134,37 @@ See `cli-outputs.txt` for all command outputs.
 ## Reflection
 
 **What did you learn about S3?**
-[Your answer]
+
+
+I learned that Amazon S3 is a highly durable and scalable object storage service. It allows organizing data in buckets and folders (prefixes), supports versioning, encryption, tagging, and offers multiple storage classes for cost optimization. Using the AWS Console and CLI, I can upload, download, sync, and manage objects efficiently while implementing best practices for security and data management.
+
 
 **When would you use different storage classes?**
-[Your answer]
+
+
+Different storage classes are used based on access patterns and cost requirements:
+
+Standard: For frequently accessed data that needs low latency.
+
+Standard-IA (Infrequent Access): For data accessed less often but still requires quick retrieval.
+
+Intelligent-Tiering: Automatically moves objects between frequent and infrequent access tiers based on usage patterns, ideal for unpredictable workloads.
+
+Glacier / Deep Archive: For long-term archival data with rare access needs, minimizing storage cost.
 
 ---
 
 ## Checklist
 
-- [ ] Bucket created
-- [ ] Objects uploaded (console and CLI)
-- [ ] Folders created
-- [ ] Storage classes configured
-- [ ] Versioning enabled and tested
-- [ ] Encryption enabled
-- [ ] Tags added
-- [ ] Sync completed
-- [ ] All screenshots captured
-- [ ] Bucket cleaned up (deleted)
+-  Bucket created
+-  Objects uploaded (console and CLI)
+-  Folders created
+-  Storage classes configured
+-  Versioning enabled and tested
+-  Encryption enabled
+-  Tags added
+-  Sync completed
+-  All screenshots captured
+-  Bucket cleaned up (deleted)
 
 **Completed By:** [Your Name]

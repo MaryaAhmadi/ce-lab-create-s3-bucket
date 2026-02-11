@@ -6,7 +6,7 @@
 
 ## Exercise 1: Bucket Creation
 
-**Bucket Name:** [maryamahmadi-bootcamp-demo-2024]  
+**Bucket Name:** [maryam-ahmadi-bootcamp-demo-2024]  
 **Region:** [us-east-1]
 
 **Block Public Access: Enabled (Default)
@@ -167,4 +167,4 @@ Glacier / Deep Archive: For long-term archival data with rare access needs, mini
 -  All screenshots captured
 -  Bucket cleaned up (deleted)
 
-**Completed By:** [Your Name]
+**Completed By:** MAryam Ahamdi
